@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.SortInAscendingOrder", "3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.FindLongestSubsequence", "4.FindLongestSubsequence\4.FindLongestSubsequence.csproj", "{B32B260B-B442-4D00-9B4E-401276F7B309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingProject", "Test\HelpingProject.csproj", "{261B37C2-3C06-48E3-BB30-B981018E1239}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearDS.Tests", "LinearDS.Tests\LinearDS.Tests.csproj", "{B1919586-900E-4AED-9457-55342DEEAC09}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.PositiveValuesOnly", "5.PositiveValuesOnly\5.PositiveValuesOnly.csproj", "{7DFCF4D7-D405-48E7-A2AE-B1295E340D49}"
@@ -57,10 +55,6 @@ Global
 		{B32B260B-B442-4D00-9B4E-401276F7B309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B32B260B-B442-4D00-9B4E-401276F7B309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B32B260B-B442-4D00-9B4E-401276F7B309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{261B37C2-3C06-48E3-BB30-B981018E1239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{261B37C2-3C06-48E3-BB30-B981018E1239}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{261B37C2-3C06-48E3-BB30-B981018E1239}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{261B37C2-3C06-48E3-BB30-B981018E1239}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1919586-900E-4AED-9457-55342DEEAC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1919586-900E-4AED-9457-55342DEEAC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1919586-900E-4AED-9457-55342DEEAC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
