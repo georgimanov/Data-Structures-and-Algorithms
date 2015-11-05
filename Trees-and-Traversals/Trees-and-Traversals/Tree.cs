@@ -11,8 +11,7 @@
         {
             if (value == null)
             {
-                throw new ArgumentNullException(
-                    "Cannot insert null value!");
+                throw new ArgumentNullException("Cannot insert null value!");
             }
 
             this.Root = new TreeNode<T>(value);
@@ -92,6 +91,26 @@
                     TreeNode<T> childNode = currentNode.GetChild(i);
                     stack.Push(childNode);
                 }
+            }
+        }
+
+        public void TraverseLeafs(TreeNode<T> root)
+        {
+            if (root == null)
+            {
+                return;
+            }
+
+            if (root.ChildrenCount == 0)
+            {
+                Console.Write("{0}, ", root.Value);
+            }
+
+            TreeNode<T> child = null;
+            for (int i = 0; i < root.ChildrenCount; i++)
+            {
+                child = root.GetChild(i);
+                this.TraverseLeafs(child);
             }
         }
     }
