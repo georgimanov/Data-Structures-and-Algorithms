@@ -17,8 +17,8 @@
     {
         static void Main(string[] args)
         {
-            const int start = 5;
-            const int end = 16;
+            const int start = 100;
+            const int end = 1000;
 
             var stack = new Stack();
             stack.Push(end);
